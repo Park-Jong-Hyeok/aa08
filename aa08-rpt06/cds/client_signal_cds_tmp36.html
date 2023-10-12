@@ -33,7 +33,7 @@ parser.on("data", (data) => {
   dStr = getDateString();
   tdata[0] = dStr;
   tdata[1] = data; // data
-  console.log("AA13," + tdata.toString());
+  console.log("AA08," + tdata.toString());
   io.sockets.emit("message", tdata); // send data to all clients
 });
 
