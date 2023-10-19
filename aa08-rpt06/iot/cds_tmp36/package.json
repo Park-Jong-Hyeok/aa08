@@ -11,7 +11,7 @@
     "tmp36",
     "node"
   ],
-  "author": "aa04",
+  "author": "aa08",
   "license": "MIT",
   "dependencies": {
     "serialport": "^9.2.4",
