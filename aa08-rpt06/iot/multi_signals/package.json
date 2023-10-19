@@ -2,7 +2,7 @@
   "name": "multi_signals",
   "version": "1.0.0",
   "description": "signals_node_project",
-  "main": "aa04_multi_signals.js",
+  "main": "aa08_multi_signals.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "signals",
     "node"
   ],
-  "author": "aa04",
+  "author": "aa08",
   "license": "MIT",
   "dependencies": {
     "serialport": "^9.2.4",
