@@ -20,7 +20,7 @@ void loop() {
   humi = random(40,90);
   temp = random(-10,30);
   lux = random(150,250);
-  //Serial.print("AA04, Ambient lux:");
+  //Serial.print("AA08, Ambient lux:");
   Serial.print(temp);
   Serial.print(", ");  
   //Serial.print(" , Humidity:");
