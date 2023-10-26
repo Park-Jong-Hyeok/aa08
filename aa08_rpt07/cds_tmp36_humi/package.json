@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "serialport": "^9.2.4",
-    "socket.io": "^2.4.1"
-  }
-}
