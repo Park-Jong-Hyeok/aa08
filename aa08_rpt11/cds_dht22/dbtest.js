@@ -1,8 +1,14 @@
 // dbtest.js
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/test", {
+mongoose.connect("mongodb://127.0.0.1/test", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+});
+
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function callback () {
+    console.log("mongo db connection OK.");
 });
 
 var SensorSchema = new mongoose.Schema({
