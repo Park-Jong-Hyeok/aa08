@@ -15,7 +15,9 @@
   "author": "aa00",
   "license": "MIT",
   "dependencies": {
-    "mongoose": "^6.7.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^6.0.12",
     "serialport": "^9.2.4",
     "socket.io": "^2.4.1"
   }
